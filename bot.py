@@ -27,7 +27,7 @@ class Bot:
         self.comment()
 
     def comment(self):
-        arq = open('arrobas.txt', 'r')
+        arq = open('lista_perfis.txt', 'r')
         list = []
         linhas = arq.readlines()
 
